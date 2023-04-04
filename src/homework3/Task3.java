@@ -20,6 +20,6 @@ public class Task3 {
             sum += i;
         }
         average = sum / arrayList.size();
-        System.out.println(average);
+        System.out.println(average + "\n");
     }
 }

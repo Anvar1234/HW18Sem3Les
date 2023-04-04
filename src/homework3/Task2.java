@@ -15,10 +15,10 @@ public class Task2 {
             if (el % 2 != 0) tempArray.add(el);
         }
         if(tempArray.isEmpty()){
-            System.out.println("Нечетных значений в массиве нет!");
+            System.out.println("Нечетных значений в массиве нет! \n");
         }else {
-            System.out.println("Массив нечетных чисел: ");
-            System.out.println(tempArray);
+            System.out.println("Массив нечетных чисел из него:");
+            System.out.println(tempArray+"\n");
         }
     }
 }
