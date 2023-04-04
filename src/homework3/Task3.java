@@ -8,7 +8,7 @@ import java.util.List;
  * Задан целочисленный список ArrayList. Найти минимальное, максимальное и среднее из этого списка.
  */
 public class Task3 {
-    public static void delEvenNumbers(ArrayList<Integer> arrayList) {
+    public static void minMaxAverageValue(ArrayList<Integer> arrayList) {
         System.out.print("Максимальное значение массива: ");
         System.out.println(Collections.max(arrayList));
         System.out.print("Минимальное значение массива: ");
