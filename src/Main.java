@@ -14,17 +14,6 @@ public class Main {
 
         Task3.minMaxAverageValue(newFirstArray);
 
-
-        System.out.print("Введите длину массива N: ");
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        System.out.print("Введите максимальное значение массива: ");
-        int max = sc.nextInt();
-        sc.close();
-
-        ArrayList<Integer> array = new ArrayList<>(10);
-        Random r = new Random();
-
         ArrayList<Integer> newSecondArray = new ArrayList<>();
         newSecondArray = getArrayList.getArray();
         System.out.println("Второй рабочий массив: ");
